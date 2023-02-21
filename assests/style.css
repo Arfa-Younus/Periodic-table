@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(16, 16, 16);
+    background-image: url("./images/glow.jpg"), url("./images/glow2.jpg");
+    background-position:left, right;
+    background-repeat: no-repeat;
+    background-size: 175px ;
+    background-attachment: fixed;
+    font-family:  Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    font-size: 70px; 
+    color:rgb(249, 249, 249);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+table{
+margin-top: 20px;
+}
+
+td{
+    text-align: center;
+    font-size: 15.3px;
+    width: 3.5vw;
+    border: 1px solid white;
+    color: white;
+    font-weight: 550;
+    padding: 2px;
+}
+.empty {
+    border: none;
+}
+
+.dark1{
+    background-color:rgb(96, 180, 28);
+    color: rgb(216, 231, 218);
+}
+.dark2{
+    background-color:rgb(143, 48, 161);
+    color: rgb (88, 12, 130);
+}
+.dark3{
+    background-color:rgb(0, 189, 211);
+    color: rgb(18, 64, 77);
+}
+.dark4{
+    background-color:rgb(232, 65, 129);
+    color: rgb(53, 7, 25);
+}
+.dark5{
+    background-color:rgb(240, 124, 74);
+    color: rgb(125, 39, 2);
+}
+.dark6{
+    background-color:rgb(138, 58, 90);
+    color: rgb(255, 255, 255);
+}
+.dark6{ 
+    background-color:rgb(255, 229, 15);
+    color: rgb(98, 84, 4);
+}
+.dark7{
+    background-color:rgb(1, 70, 105);
+    color: rgb(235, 242, 245); 
+}
+.dark8{
+    background-color:rgb(171, 7, 70);
+    color: rgb(255, 255, 255);
+}
+.dark9{
+    background-color:rgb(82, 253, 247);
+    color: rgb(2, 46, 44);
+}
+.dark10{
+    background-color:rgb(155, 17, 111);
+    color: rgb(242, 187, 224);
+}
+td:hover {
+    filter: brightness(200%);
+    color: black;
+}
+
+h1 span{
+animation: animate 1s linear infinite;
+}
+
+h1 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+h1 span:nth-child(2)
+{
+    animation-delay: 0.1s;
+}
+
+h1 span:nth-child(3)
+{
+    animation-delay: 0.2s;
+}
+
+h1 span:nth-child(4)
+{
+    animation-delay: 0.3s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 0.4s;
+}
+
+h1 span:nth-child(6)
+{
+    animation-delay: 0.5s;
+}
+
+h1 span:nth-child(7)
+{
+    animation-delay: 0.6s;
+}
+
+h1 span:nth-child(8)
+{
+    animation-delay: 0.7s;
+}
+
+h1 span:nth-child(10)
+{
+    animation-delay: 0.8s;
+}
+h1 span:nth-child(11)
+{
+    animation-delay: 0.9s;
+}
+h1 span:nth-child(12)
+{
+    animation-delay: 1s;
+}
+h1 span:nth-child(13)
+{
+    animation-delay: 1.1s;
+}
+h1 span:nth-child(14)
+{
+    animation-delay: 1.2s;
+}
+
+@keyframes animate{
+    0%,80%
+    {
+        color: rgb(229, 243, 247);
+        text-shadow: none;
+    }
+    100%
+    {
+        color: rgb(89, 149, 201);
+        text-shadow: 0 0 10px rgb(4, 89, 131),
+        0 0 80px rgb(4, 89, 131),
+        0 0 40px rgb(4, 89, 131),
+        0 0 20px rgb(4, 89, 131)
+        0 0 120px rgb(4, 89, 131),
+        0 0 160px rgb(4, 89, 131);
+    }
+}
